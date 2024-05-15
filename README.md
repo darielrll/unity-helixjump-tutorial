@@ -12,6 +12,7 @@ __Notes__:
 # Key things learned
  - how to add packages
   - it was added a package for a circular section to build the complete helix
+ - how to pin the objetive of the camara to a game object.
 
 # What to add
  - 
