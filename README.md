@@ -13,6 +13,7 @@ __Notes__:
  - how to add packages
   - it was added a package for a circular section to build the complete helix
  - how to pin the objetive of the camara to a game object.
+ - rotate an object using the mouse control 
 
 # What to add
  - 
