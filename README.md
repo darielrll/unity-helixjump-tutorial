@@ -8,7 +8,8 @@ _Resume_: The game is about HelixJump game.
 __Project type__: 3D 
 
 __Notes__:
- - wip
+ - In this project I see for the first time an script that does not inherit from MonoBehavior
+ - A special script was created to create dynamically the stages in the helix
 
 # Key things learned
  - how to add packages
