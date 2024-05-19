@@ -14,6 +14,7 @@ __Notes__:
   - it was added a package for a circular section to build the complete helix
  - how to pin the objetive of the camara to a game object.
  - rotate an object using the mouse control 
+ - how to store player status and start new game with the last status
 
 # What to add
  - 

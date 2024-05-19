@@ -14,6 +14,8 @@ public class BallController : MonoBehaviour
             return;
         }
 
+        GameManager.gameManager.AddScore(1);
+
         rb.linearVelocity = Vector3.zero;
         rb.AddForce(Vector3.up * impulseForce, ForceMode.Impulse);
         ignoreNextCollision = true;
