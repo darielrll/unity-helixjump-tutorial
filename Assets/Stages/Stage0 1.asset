@@ -10,33 +10,33 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 2577f30338f154c04a5d95f79ab03e6a, type: 3}
-  m_Name: Stage0
+  m_Name: Stage0 1
   m_EditorClassIdentifier: 
   stageBackgroundColor: {r: 0.759434, g: 1, b: 0.7854953, a: 1}
   stageLevelPartColor: {r: 0.93333334, g: 0.5466317, b: 0.07450977, a: 1}
   stageBallColor: {r: 0, g: 0.7933054, b: 1, a: 1}
   levels:
-  - partCount: 8
-    deathPartCount: 2
-  - partCount: 8
+  - partCount: 9
     deathPartCount: 3
+  - partCount: 6
+    deathPartCount: 4
   - partCount: 9
     deathPartCount: 5
+  - partCount: 8
+    deathPartCount: 2
+  - partCount: 10
+    deathPartCount: 3
+  - partCount: 9
+    deathPartCount: 3
+  - partCount: 11
+    deathPartCount: 3
+  - partCount: 9
+    deathPartCount: 3
+  - partCount: 11
+    deathPartCount: 2
   - partCount: 9
     deathPartCount: 2
   - partCount: 9
     deathPartCount: 3
-  - partCount: 10
-    deathPartCount: 1
-  - partCount: 11
-    deathPartCount: 3
-  - partCount: 10
-    deathPartCount: 2
-  - partCount: 11
-    deathPartCount: 2
-  - partCount: 9
-    deathPartCount: 0
   - partCount: 8
     deathPartCount: 4
-  - partCount: 7
-    deathPartCount: 3

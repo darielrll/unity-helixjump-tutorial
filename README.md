@@ -23,6 +23,7 @@ __Notes__:
  - Get the collisioner object asking directly to collision.transform.GetComponent<expectedType>
   - if its null means the collisioner object was diferent from the expected type
  - how to add helix levels by code
+ - change the rendering path to Deferred to improve the lightning and shadows 
 
 # What to add
  - 
