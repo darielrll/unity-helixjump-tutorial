@@ -22,7 +22,7 @@ __Notes__:
  - How to change the color by code
  - Get the collisioner object asking directly to collision.transform.GetComponent<expectedType>
   - if its null means the collisioner object was diferent from the expected type
-
+ - how to add helix levels by code
 
 # What to add
  - 
