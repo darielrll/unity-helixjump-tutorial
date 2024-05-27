@@ -1,4 +1,5 @@
 using UnityEngine;
+using UnityEngine.Audio;
 
 public class BallController : MonoBehaviour
 {
@@ -13,6 +14,8 @@ public class BallController : MonoBehaviour
     public float superSpeed = 8;
     private bool isSuperSpeedActive;
     public int perfectPassCount = 1;
+    public GameObject splash;
+    public AudioSource collisionAudio;
 
     private void Start()
     {
@@ -21,6 +24,9 @@ public class BallController : MonoBehaviour
 
     private void OnCollisionEnter(Collision collision)
     {
+        collisionAudio.Play();
+        AddSplash(collision);
+
         if(ignoreNextCollision)
         {
             return;
@@ -66,5 +72,14 @@ public class BallController : MonoBehaviour
     public void ResetBall()
     {
         transform.position = startPosition;
+    }
+
+    public void AddSplash(Collision collision)
+    {
+        GameObject newSplash = Instantiate(splash);
+
+        newSplash.transform.SetParent(collision.transform);
+        newSplash.transform.position = new Vector3(transform.position.x, transform.position.y - 0.11f, transform.position.z);
+        Destroy(newSplash, 3);
     }
 }

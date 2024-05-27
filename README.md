@@ -25,6 +25,7 @@ __Notes__:
  - how to add helix levels by code
  - change the rendering path to Deferred to improve the lightning and shadows 
  - using the annotation HideInInspector a property is not visible in Unity inspector
+ - how to add animation, study case, message "+1" when a point is made
 
 # What to add
  - 
